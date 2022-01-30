@@ -2,6 +2,8 @@
 ## The difference between synchronous and asynchronous reading of files
 
 Difference between Asynchronous and Synchronous methods:
+
+<table>
 <tr>
   <th>
   Sr.no
@@ -33,6 +35,7 @@ Difference between Asynchronous and Synchronous methods:
   <td>Examples: fs.readFileSync(), fs.appendFileSync(), fs.writeFileSync() etc.	</td>
   <td>Examples: fs.readFile(), fs.appendFile(), fs.writeFile(), fs.stat() etc. </td>
 </tr>
+</table>
                                                       
 
 ## 1. Synchronous methods: (Blocking code)
