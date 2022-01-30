@@ -75,6 +75,8 @@ Asynchronous functions do not block the execution of the program and each comman
 ## The benefits of async: 
 
 Heavy operations which consume time for processing such as querying huge data from a database should be done asynchronously as other operations can still be executed and thus, reducing the time of execution of the program. In below image you can see the file name.txt placed inside the meta folder with async but nameSync.txt still and metaSync folder empty after creation by sync. So async is benifial than sync.
+
+
 ![Screenshot (142)](https://user-images.githubusercontent.com/80479635/151710410-65147139-07c6-49dd-8dba-954b8d219a0a.png)
 
 
