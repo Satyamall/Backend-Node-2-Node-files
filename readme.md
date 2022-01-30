@@ -33,9 +33,14 @@ Difference between Asynchronous and Synchronous methods:
 <tr>
   <td>4.</td>
   <td>Examples: fs.readFileSync(), fs.appendFileSync(), fs.writeFileSync() etc.	</td>
+
   <td>Examples: fs.readFile(), fs.appendFile(), fs.writeFile(), fs.stat() etc. </td>
 </tr>
 </table>
+
+![Screenshot (139)](https://user-images.githubusercontent.com/80479635/151710556-81513f14-fd76-46a3-bc36-c18274a20e34.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/80479635/151710526-407fc8b7-b6f7-43d0-9fda-7d6d5371d58d.png)
+
                                                       
 
 ## 1. Synchronous methods: (Blocking code)
@@ -70,3 +75,7 @@ Asynchronous functions do not block the execution of the program and each comman
 ## The benefits of async: 
 
 Heavy operations which consume time for processing such as querying huge data from a database should be done asynchronously as other operations can still be executed and thus, reducing the time of execution of the program.
+![Screenshot (142)](https://user-images.githubusercontent.com/80479635/151710410-65147139-07c6-49dd-8dba-954b8d219a0a.png)
+
+
+
